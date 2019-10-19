@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    tools:context=".ResumeMain">
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="0dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="9dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/profile_picture"
+        android:scaleType="fitXY"
+        android:src="@drawable/passport"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="490dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:paddingBottom="10dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profilepic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/header"
+                android:text="@string/tech_skills" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/c" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/cpp" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/java" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/python" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/algorithms" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/research" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/android" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/matlab" />
+
+            <TextView
+                style="@style/header"
+                android:text="@string/publications" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/paper1" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/OEIS1" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/OEIS2" />
+
+            <TextView
+                style="@style/header"
+                android:text="@string/personal_details" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/email" />
+
+            <TextView
+                style="@style/data"
+                android:text="@string/phone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/name_id"
+        style="@style/textStyle"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/place"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilepic" />
+
+    <TextView
+        android:id="@+id/place"
+        style="@style/textStyle"
+        android:layout_width="199dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/place"
+        app:layout_constraintBottom_toTopOf="@+id/qua_id"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_id" />
+
+    <TextView
+        android:id="@+id/qua_id"
+        style="@style/textStyle"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingBottom="10dp"
+        android:text="@string/degree"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/scrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

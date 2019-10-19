@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Project-SaiSatwikK</string>
+    <string name="action_settings">Settings</string>
+    <string name="author_first_name">Author First Name:</string>
+    <string name="xyz">XYZ</string>
+    <string name="author_last_name">Author Last Name:</string>
+    <string name="enter_author_details">Enter Author Details</string>
+    <string name="articles_Url">ArticlesURL</string>
+    <string name="scopus">Scopus</string>
+    <string name="defResume">Resume: About Me, My Techincal Skills, My Projects and My Publications</string>
+    <string name="defScopus">Scopus: Find required papers by providing specific details</string>
+    <string name="resume">Resume</string>
+    <string name="todo">TODO</string>
+    <string name="profile_picture">profile_picture</string>
+    <string name="name">Sai Satwik Kuppili</string>
+    <string name="degree">B.Tech in CSE</string>
+    <string name="place">Amritapuri, Kollam</string>
+    <string name="tech_skills">Technical Skills</string>
+    <string name="c">C Language</string>
+    <string name="RESUME">Resume</string>
+    <string name="cpp">Cpp</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="algorithms">Data Structures and Algorithms</string>
+    <string name="research">Research</string>
+    <string name="android">Android Development</string>
+    <string name="matlab">Matlab</string>
+    <string name="publications">Publications</string>
+    <string name="paper1">An Upper Bound for Sorting Rn with LE</string>
+    <string name="OEIS1">OEIS 048200</string>
+    <string name="OEIS2">OEIS186752</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="email">Email: satwik.kuppili@gmail.com</string>
+    <string name="phone">Phone: 7730876239</string>
+    <string name="projects">Projects</string>
+    <string name="ImPr">Optimizing Visual Surveillance Sensor Coverage</string>
+    <string name="SRwL">Sorting R_n with LE</string>
+    <string name="DBMS">House Boat Management System</string>
+    <string name="SSR">Student Social Responsibility Project</string>
+    <string name="SD">Student Diary: Java</string>
+    <string name="URL1">https://api.elsevier.com/content/search/author?query=authlast((</string>
+    <string name="URL2">)%20and%20authfirst(</string>
+    <string name="URL3">apiKey=7f59af901d2d86f78a1fd60c1bf9426a</string>
+    <string name="submit">Submit</string>
+    <string name="albert">Albert</string>
+    <string name="einstein">Einstein</string>
+    <string name="enter_authors_s_last_name">Enter Authors\'s Last Name</string>
+    <string name="enter_authors_s_first_name">Enter Authors\'s First Name</string>
+    <string name="readLater">Read Later</string>
+    <string name="scopus_image">Scopus Image</string>
+
+</resources>

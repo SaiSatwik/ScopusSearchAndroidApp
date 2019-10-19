@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.project_saisatwikk.MainActivity">
+    <item
+        android:id="@+id/resume"
+        android:orderInCategory="100"
+        android:title="@string/RESUME"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/readLater"
+        android:orderInCategory="100"
+        android:title="@string/readLater"
+        app:showAsAction="never" />
+</menu>
